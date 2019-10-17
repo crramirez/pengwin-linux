@@ -11,7 +11,9 @@ sudo cp wslpath /usr/local/bin
 
 git clone https://github.com/WhitewaterFoundry/pengwin-setup.git
 
+sudo rm -rf  /usr/local/pengwin-setup.d
 sudo mv pengwin-setup/pengwin-setup.d /usr/local
+
 chmod +x pengwin-setup/pengwin-setup
 sudo cp pengwin-setup/pengwin-setup /usr/local/bin
 
